@@ -111,7 +111,19 @@
 }
 
 .logo {
-  height: 1em;
+  height: .7em;
+}
+.heart{
+  color: red;
+  margin-left: .3rem;
+  margin-right: .3rem;
+}
+
+.alisson{
+  margin-left: .3rem;
+  margin-right: .3rem;
+  color: #0070f3;
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {

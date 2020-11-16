@@ -21,22 +21,19 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/api/picsum" className={styles.card}>
             <h3>Picsum &rarr;</h3>
-            <p>Get a random curated image from Unsplash, with it's details.</p>
+            <p>Get a random curated image from Unsplash, with its details.</p>
           </a>
 
-          {/* <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+           <a href="/api/art" className={styles.card}>
+            <h3>Art &rarr;</h3>
+            <p>Get a random image from the MET Museum, with its details.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/api/cors?image=https://images.metmuseum.org/CRDImages/ep/original/DT2722.jpg" className={styles.card} >
+            <h3>Cors &rarr;</h3>
+            <p>Cors Anywhere for images</p>
           </a>
-
+          {/*
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -50,12 +47,16 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+        Coded with <strong className={styles.heart}>❤</strong> by 
+        <a href="https://alissonsteffens.com/" target="blank" className={styles.alisson}>
+          Alisson
+        </a>
+        and powered by
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
