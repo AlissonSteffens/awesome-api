@@ -30,7 +30,11 @@ export default function Home() {
           </a>
           <a href="/api/rick-and-morty" className={styles.card}>
             <h3>Rick and Morty &rarr;</h3>
-            <p>Get a random character from <b>Rick and Morty</b>, with its details.</p>
+            <p>Get a random character from Rick and Morty, with its details.</p>
+          </a>
+          <a href="/api/final-space" className={styles.card}>
+            <h3>Rick and Morty &rarr;</h3>
+            <p>Get a random character from Final Space, with its details.</p>
           </a>
           <a href="/api/cors?image=https://images.metmuseum.org/CRDImages/ep/original/DT2722.jpg" className={styles.card} >
             <h3>Cors &rarr;</h3>
