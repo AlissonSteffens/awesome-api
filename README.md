@@ -9,8 +9,15 @@ Get a random curated image from Unsplash, with its details.
 ### Art →
 Get a random image from the MET Museum, with its details.
 
+### Rick and Morty →
+Get a random character from Rick and Morty, with its details.
+
+### Final Space →
+Get a random character from Final Space, with its details.
+
 ### Cors →
 Cors Anywhere for images
+
 
 
 ## NextJS
