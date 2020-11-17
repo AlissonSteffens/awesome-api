@@ -14,10 +14,10 @@ export default (req, res) => {
             let temp = JSON.parse(body);
             var out = {};
             out.title = temp.name;
-            out.author = temp.type;
+            out.type = temp.type;
             out.img = temp.image;
             out.source = temp.url;
-            out.year = temp.status;
+            out.status = temp.status;
             res.json(out);
         });
 
