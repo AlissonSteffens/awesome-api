@@ -68,6 +68,14 @@ export default function Home() {
           </div>
 
           <div className={styles.card}> 
+            <a href="/api/pokemon"  className={styles.yellow} id="picsum">
+              <h3>Pokémon &rarr;</h3>
+            </a>
+            <p>Get a random Pokemon, with its details.</p>
+            <p className={styles.fonte}><strong>Source:</strong> <a href="https://pokeapi.co/" className={styles.yellow} target="_blank">Final Space API</a></p>
+          </div>
+
+          <div className={styles.card}> 
             <a href="/api/cors?image=https://images.metmuseum.org/CRDImages/ep/original/DT2722.jpg"  className={styles.blue} id="picsum">
               <h3>Cors &rarr;</h3>
             </a>

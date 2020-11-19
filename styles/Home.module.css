@@ -123,6 +123,14 @@
 
 }
 
+.yellow:hover,
+.yellow:focus,
+.yellow:active {
+  color: #B3A125;
+  border-color: #B3A125;
+
+}
+
 .green:hover,
 .green:focus,
 .green:active {
