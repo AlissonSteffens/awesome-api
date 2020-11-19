@@ -91,12 +91,52 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
+.card .content{
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.fonte{
+  font-size: .8rem !important;
+}
 
 .card:hover,
 .card:focus,
 .card:active {
+  color: #000;
+  border-color: #666;
+}
+
+.blue:hover,
+.blue:focus,
+.blue:active {
   color: #0070f3;
   border-color: #0070f3;
+}
+
+.red:hover,
+.red:focus,
+.red:active {
+  color:#ED213A;
+  border-color:#ED213A;
+
+}
+
+.green:hover,
+.green:focus,
+.green:active {
+  color:#17b978; 
+  border-color: #17b978; 
+
+}
+
+.purple:hover,
+.purple:focus,
+.purple:active {
+  color: #7F00FF;
+  border-color:#7F00FF;
+
 }
 
 .card h3 {
