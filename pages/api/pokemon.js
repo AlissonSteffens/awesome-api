@@ -21,7 +21,7 @@ export default (req, res) => {
             out.type = types.join(' - ');
             out.img = temp.sprites.front_default;
             out.source = 'https://www.pokemon.com/br/pokedex/'+temp.name;
-            out.status = temp.status;
+            out.id = temp.id;
             res.json(out);
         });
 
