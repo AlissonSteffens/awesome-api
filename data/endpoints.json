@@ -60,6 +60,16 @@
         }
     },
     {
+        "endpoint": "https://awesome-api.vercel.app/api/lol",
+        "name": "LoL",
+        "description": "Get a random LoL champion, with its details.",
+        "color": "#e74c3c",
+        "source": {
+            "name": "Data Dragon",
+            "link": "https://developer.riotgames.com/apis"
+        }
+    },
+    {
         "endpoint": "https://awesome-api.vercel.app/api/cors?image=https://images.metmuseum.org/CRDImages/ep/original/DT2722.jpg",
         "name": "Cors",
         "color": "#3498db",
