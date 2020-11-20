@@ -16,7 +16,7 @@ export default (req, res) => {
             var out = {};
             out.name = temp.localized_name;
             out.type = temp.attack_type;
-            out.img = 'https://api.opendota.com' + temp.img;
+            out.img = 'https://awesome-api.vercel.app/api/cors?image=https://api.opendota.com' + temp.img;
             out.source = "";
             out.status = temp.primary_attr;
             res.json(out);

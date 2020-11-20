@@ -64,5 +64,11 @@
         "name": "Cors",
         "color": "#3498db",
         "description": "Cors Anywhere for images."
+    },
+    {
+        "endpoint": "https://awesome-api.vercel.app/api",
+        "name": "This API",
+        "color": "#3498db",
+        "description": "Self describes this API."
     }
 ]
