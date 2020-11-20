@@ -17,12 +17,8 @@ export default (req, res) => {
             var out = {};
             out.name = temp.name;
             out.type = temp.title;
-            let imName = temp.name.replace(' ','')
-            imName= imName.replace('.','')
-            imName= imName.replace('\'S','s')
-            imName= imName.replace('\'Z','z')
-            out.img = 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' +imName +"_0.jpg";
-            out.source = 'https://br.leagueoflegends.com/pt-br/champions/'+ imName.toLowerCase();
+            out.img = 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' +temp.id +"_0.jpg";
+            out.source = 'https://br.leagueoflegends.com/pt-br/champions/'+ temp.id.toLowerCase();
             out.status = temp.partype;
             res.json(out);
         });
