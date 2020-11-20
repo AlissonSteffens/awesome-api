@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .footer img {
@@ -60,6 +61,7 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  margin: 0;
 }
 
 .code {
@@ -81,7 +83,8 @@
 }
 
 .card {
-  margin: 1rem;
+  margin: .5rem;
+  background-color: white;
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
@@ -94,61 +97,32 @@
 .card .content{
   background-color: white;
   border-radius: 10px;
-  padding: 1rem;
 }
 
 .fonte{
+  margin-top: .5rem !important;
   font-size: .8rem !important;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #000;
-  border-color: #666;
+  border-color:  #0070f3;
+}
+.card:hover a,
+.card:focus a{
+  color:  #0070f3;
 }
 
-.blue:hover,
-.blue:focus,
-.blue:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.link:hover,
+.link:focus,
+.link:active {
+  color: #0e56b4 !important;
 }
 
-.red:hover,
-.red:focus,
-.red:active {
-  color:#ED213A;
-  border-color:#ED213A;
-
-}
-
-.yellow:hover,
-.yellow:focus,
-.yellow:active {
-  color: #B3A125;
-  border-color: #B3A125;
-
-}
-
-.green:hover,
-.green:focus,
-.green:active {
-  color:#17b978; 
-  border-color: #17b978; 
-
-}
-
-.purple:hover,
-.purple:focus,
-.purple:active {
-  color: #7F00FF;
-  border-color:#7F00FF;
-
-}
 
 .card h3 {
-  margin: 0 0 1rem 0;
+  margin: 0 0 .5rem 0;
   font-size: 1.5rem;
 }
 

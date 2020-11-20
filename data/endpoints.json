@@ -1,0 +1,68 @@
+[
+    {
+        "endpoint": "https://awesome-api.vercel.app/api/art",
+        "name": "Art",
+        "description": "Get a random image from the MET Museum, with its details.",
+        "color": "#c0392b",
+        "source": {
+            "name": "MET Museum",
+            "link": "https://www.metmuseum.org/"
+        }
+    },
+    {
+        "endpoint": "https://awesome-api.vercel.app/api/picsum",
+        "name": "Picsum",
+        "description": "Get a random curated image from Unsplash, with its details.",
+        "color": "#34495e",
+        "source": {
+            "name": "Lorem Picsum",
+            "link": "https://picsum.photos/"
+        }
+    },
+    {
+        "endpoint": "https://awesome-api.vercel.app/api/rick-and-morty",
+        "name": "Rick and Morty",
+        "description": "Get a random character from Rick and Morty, with its details.",
+        "color": "#2ecc71",
+        "source": {
+            "name": "Rick and Morty API",
+            "link": "https://rickandmortyapi.com/"
+        }
+    },
+    {
+        "endpoint": "https://awesome-api.vercel.app/api/final-space",
+        "name": "Final Space",
+        "description": "Get a random character from Final Space, with its details.",
+        "color": "#8e44ad",
+        "source": {
+            "name": "Final Space API",
+            "link": "https://finalspaceapi.com/"
+        }
+    },
+    {
+        "endpoint": "https://awesome-api.vercel.app/api/pokemon",
+        "name": "Pokémon",
+        "description": "Get a random Pokémon, with its details.",
+        "color": "#f39c12",
+        "source": {
+            "name": "PokeAPI",
+            "link": "https://pokeapi.co/"
+        }
+    },
+    {
+        "endpoint": "https://awesome-api.vercel.app/api/dota",
+        "name": "Dota",
+        "description": "Get a random DoTA hero, with its details.",
+        "color": "#e74c3c",
+        "source": {
+            "name": "Open DoTA",
+            "link": "https://www.opendota.com/"
+        }
+    },
+    {
+        "endpoint": "https://awesome-api.vercel.app/api/cors?image=https://images.metmuseum.org/CRDImages/ep/original/DT2722.jpg",
+        "name": "Cors",
+        "color": "#3498db",
+        "description": "Cors Anywhere for images."
+    }
+]
