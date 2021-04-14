@@ -10,6 +10,16 @@
         }
     },
     {
+        "endpoint": "https://awesome-api.vercel.app/api/earthview",
+        "name": "Earth View",
+        "description": "Get a random image from Google Earth View.",
+        "color": "#c0392b",
+        "source": {
+            "name": "Earth View",
+            "link": "https://earthview.withgoogle.com/"
+        }
+    },
+    {
         "endpoint": "https://awesome-api.vercel.app/api/picsum",
         "name": "Picsum",
         "description": "Get a random curated image from Unsplash, with its details.",
