@@ -13,6 +13,7 @@ export default (req, res) => {
     name = temp.country
   }
   out.title = name;
+  out.author = "Google Earth";
   out.img = 'https://awesome-api.vercel.app/api/cors?image=' + temp.image;
   out.source = temp.map;
   res.json(out);
