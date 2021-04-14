@@ -12,7 +12,7 @@ export default (req, res) => {
     name = temp.country
   }
   out.title = name;
-  out.img = 'https://awesome-api.vercel.app/api/cors?' + temp.image;
+  out.img = 'https://awesome-api.vercel.app/api/cors?image='+temp.image;
   out.source = temp.map;
   res.json(out);
 }
